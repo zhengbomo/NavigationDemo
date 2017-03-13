@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (1.0.2)
+  - RTRootNavigationController (0.5.24)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.2)
+  - RTRootNavigationController (~> 0.5.24)
+  - SVProgressHUD (~> 2.1.2)
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  RTRootNavigationController: 5ccb6469e9c639ff464248f611678e0f98778e00
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 875ad466a31fd73eaf0cf00ddc662d31b9a6fb1a
+
+COCOAPODS: 1.2.0

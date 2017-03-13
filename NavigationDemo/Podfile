@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+use_frameworks!
+
+target 'NavigationDemo' do
+    pod 'Masonry', '~> 1.0.2'
+    pod 'SVProgressHUD', '~> 2.1.2'
+    pod 'RTRootNavigationController', '~> 0.5.24'
+end
+
+target 'NavigationDemoTests' do
+
+    
+end
+
