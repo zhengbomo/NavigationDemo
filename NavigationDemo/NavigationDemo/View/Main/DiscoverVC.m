@@ -26,7 +26,6 @@
 {
     [super loadView];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Setting" style:UIBarButtonItemStyleDone target:self action:@selector(setting)];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Test" style:UIBarButtonItemStyleDone target:self action:@selector(test)];
     
     self.unameLabel = [[UILabel alloc] init];
     [self.view addSubview:self.unameLabel];
@@ -54,10 +53,4 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (void)test
-{
-    MainTabController *tabVC = (MainTabController *)self.navigationController.tabBarController;
-    [tabVC reload];
-    
-}
 @end

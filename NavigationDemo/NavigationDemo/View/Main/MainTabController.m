@@ -18,11 +18,6 @@
 @implementation MainTabController
 
 #pragma mark - Life Cycle
-- (void)loadView
-{
-    [super loadView];
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];

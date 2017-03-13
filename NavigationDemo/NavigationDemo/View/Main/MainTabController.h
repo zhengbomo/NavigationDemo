@@ -11,6 +11,4 @@
 
 @interface MainTabController : BMTabBarController <ReloadProtocal>
 
-- (void)reload;
-
 @end
