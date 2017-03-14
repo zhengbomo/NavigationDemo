@@ -28,6 +28,8 @@
 		F75D34C81E742661000876B0 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D34C71E742661000876B0 /* SettingVC.m */; };
 		F75D34CF1E742AB3000876B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D34CE1E742AB3000876B0 /* ViewController.m */; };
 		F75D34D21E742D3A000876B0 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D34D11E742D3A000876B0 /* NavigationController.m */; };
+		F7DDEE611E77EE7000DFCFBB /* BMTabBarController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F7DDEE601E77EE7000DFCFBB /* BMTabBarController.podspec */; };
+		F7DDEE631E77EE8100DFCFBB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F7DDEE621E77EE8100DFCFBB /* README.md */; };
 		FCE26487C23D2FAB79CC39D2 /* Pods_NavigationDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DDE814F5F55B440B35ED01 /* Pods_NavigationDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,8 @@
 		F75D34D01E742D3A000876B0 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		F75D34D11E742D3A000876B0 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		F75D34D31E743A7F000876B0 /* ReloadProtocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReloadProtocal.h; sourceTree = "<group>"; };
+		F7DDEE601E77EE7000DFCFBB /* BMTabBarController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BMTabBarController.podspec; path = ../BMTabBarController.podspec; sourceTree = "<group>"; };
+		F7DDEE621E77EE8100DFCFBB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 		F75D347D1E7424E6000876B0 = {
 			isa = PBXGroup;
 			children = (
+				F7DDEE601E77EE7000DFCFBB /* BMTabBarController.podspec */,
+				F7DDEE621E77EE8100DFCFBB /* README.md */,
 				F75D34881E7424E6000876B0 /* NavigationDemo */,
 				F75D34A21E7424E6000876B0 /* NavigationDemoTests */,
 				F75D34871E7424E6000876B0 /* Products */,
@@ -342,6 +348,7 @@
 				F75D34991E7424E6000876B0 /* LaunchScreen.storyboard in Resources */,
 				F75D34961E7424E6000876B0 /* Assets.xcassets in Resources */,
 				F75D34941E7424E6000876B0 /* Main.storyboard in Resources */,
+				F7DDEE611E77EE7000DFCFBB /* BMTabBarController.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +465,7 @@
 				F75D348B1E7424E6000876B0 /* main.m in Sources */,
 				F75D34C51E742654000876B0 /* MeVC.m in Sources */,
 				F75D34CF1E742AB3000876B0 /* ViewController.m in Sources */,
+				F7DDEE631E77EE8100DFCFBB /* README.md in Sources */,
 				F75D34C81E742661000876B0 /* SettingVC.m in Sources */,
 				F75D34BC1E742620000876B0 /* MyProfileVC.m in Sources */,
 				F75D34B61E7425C9000876B0 /* RegisteVC.m in Sources */,

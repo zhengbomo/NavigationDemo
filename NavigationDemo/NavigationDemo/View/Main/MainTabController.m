@@ -47,7 +47,7 @@
     vc.hidesBottomBarWhenPushed = NO;
     NavigationController *navVC2 = [[NavigationController alloc] initWithRootViewController:vc];
     navVC2.tabBarItem.title = [[[NSUUID UUID] UUIDString] substringToIndex:3];
-    [self addChildViewController:navVC2];
+//    [self addChildViewController:navVC2];
     
     self.viewControllers = @[navVC1, navVC2];
 
