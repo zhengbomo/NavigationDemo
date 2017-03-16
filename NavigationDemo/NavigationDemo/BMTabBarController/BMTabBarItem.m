@@ -104,6 +104,11 @@
     self.tabBarBadge.badgeValue = self.tabBarItem.badgeValue;
 }
 
+- (void)setHighlighted:(BOOL)highlighted
+{
+    // block the system button highlight behavior
+}
+
 #pragma mark - Reset TabBarItem
 
 - (CGRect)imageRectForContentRect:(CGRect)contentRect
