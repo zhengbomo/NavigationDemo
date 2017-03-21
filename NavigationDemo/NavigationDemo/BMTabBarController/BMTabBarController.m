@@ -52,6 +52,16 @@
     return _badgeTitleFont;
 }
 
+- (void)setTabBarBackgroundColor:(UIColor *)tabBarBackgroundColor
+{
+    self.bmTabBar.backgroundColor = tabBarBackgroundColor;
+}
+
+- (UIColor *)tabBarBackgroundColor
+{
+    return self.bmTabBar.backgroundColor;
+}
+
 #pragma mark -
 
 - (void)loadView

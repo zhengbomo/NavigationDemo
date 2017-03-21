@@ -25,6 +25,9 @@
 /** Tabbar item image ratio */
 @property (nonatomic, assign) CGFloat itemImageRatio;
 
+/** tabbar backgroundColor */
+@property (nonatomic, strong) UIColor *tabBarBackgroundColor;
+
 /** Remove origin controls, for `- popToRootViewController` */
 - (void)removeOriginControls;
 
